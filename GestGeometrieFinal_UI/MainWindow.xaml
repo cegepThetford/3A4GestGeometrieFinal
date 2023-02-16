@@ -1,0 +1,21 @@
+﻿<Window x:Class="GestGeometrieFinal_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestGeometrieFinal_UI"
+        mc:Ignorable="d"
+        Title="GestGeometrie" SizeToContent="WidthAndHeight">
+    <StackPanel>
+        <TextBlock Text="Menu principal" FontSize="32" TextAlignment="Center" Margin="20,5"/>
+        <Button Content="Consulter l'horaire de Marco" Click="Button_Click"/>
+        <Button Content="Consulter l'horaire de Luc" Click="Button_Click"/>
+        <Button Content="Consulter l'horaire de Ridha" Click="Button_Click"/>
+        <Button Content="Consulter l'horaire de Gilles" Click="Button_Click"/>
+        <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button Content="Admin" Margin="10,5,10,0"/>
+            <Button Content="Quitter" Margin="0,5,0,0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
